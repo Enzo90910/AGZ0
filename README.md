@@ -15,12 +15,12 @@ It implements the core algorithm in 3 distincts files:
   
   -train: solely train the network in batch
   
- The code is as ugly as possible and mostly if not completly uncommented (self made programmer style), it will change 
- if I find the time to do so.
+ The code is aklmost as ugly as possible and mostly if not completly uncommented (self-made programmer style), it will change 
+ if I find the time and the character to do so.
  
  ## Test it 
  
- You need Julia and Flux to use it.
+ You need Julia and Flux and Juno and CuArrays and Distributions to use it.
  Clone the repository
  Choose one one files named main "name of the game here" and compile it. It will load all the necessary stuff to launch training.
  Then in the repl (or terminal? I use only Atom) type the following command
