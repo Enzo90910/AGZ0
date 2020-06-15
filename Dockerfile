@@ -7,5 +7,6 @@ RUN julia -e 'using Pkg; Pkg.add("StaticArrays")'
 RUN julia -e 'using Pkg; Pkg.add("StatsBase")'
 RUN julia -e 'using Pkg; Pkg.add("Zygote")'
 RUN julia -e 'using Pkg; Pkg.add("BSON")'
+RUN julia -e 'using Pkg; Pkg.add("CUDAdrv")'
 RUN julia -e 'using Pkg; pkg"precompile"'
 
